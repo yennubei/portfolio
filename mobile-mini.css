@@ -1,0 +1,26 @@
+@media screen AND (max-width: 525px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    nav ul i.fa-bars{
+        display: block !important;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+
+
+    div.home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.home p.engineer{
+        display: none;
+    }
+
+
+
+}
